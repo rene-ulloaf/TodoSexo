@@ -1,0 +1,45 @@
+body{
+	font-style:verdana,arial;
+	font-size:16px;
+}
+
+.texto{
+	font-family:verdana,arial;
+	font-size:16px;
+}
+
+.texto_titulo{
+	font-style:verdana,arial;
+	font-size:22px;
+	font-weight:bold;
+	color:#CC0033;
+}
+
+.texto_subtitulo{
+	font-style:verdana,arial;
+	font-size:20px;
+	font-weight:bold;
+}
+
+.titulo_celda{
+	font-style:verdana,arial;
+	font-size:16px;
+	font-weight:bold;
+	text-align:left;
+}
+
+.texto_celda{
+	font-style:verdana,arial;
+	font-size:16px;
+	text-align:left;
+}
+
+.habilitar_cambio_foto{
+	cursor:hand;
+	text-decoration:underline;
+}
+
+.deshabilitar_cambio_foto{
+	cursor:default;
+	text-decoration:none;
+}

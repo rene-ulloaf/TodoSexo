@@ -1,0 +1,51 @@
+User-Agent: *
+Disallow: acompananteMail.php
+Disallow: admin.php
+Disallow: configuracion.php
+Disallow: creaAcompanantes.php
+Disallow: listaAcompanantes.php
+Disallow: listaAcompanantesMail.php
+Disallow: subirFotos.php
+Disallow: /bitacora/
+Disallow: /clases/
+Disallow: /complementos/
+Disallow: /estilos/
+#Disallow: /fotos/
+#Disallow: /img/
+Disallow: /sql/
+Disallow: /uml/
+
+Sitemap: http://www.todosexo.cl/sitemap.xml
+
+#http://www.siteware.ch/webresources/useragents/spiders/
+
+#User-Agent: Slurp #Yahoo
+#User-Agent: ArchitextSpider #Excite
+#User-Agent: Scooter #Altavista
+#User-Agent: Lycos_Spider_(T-Rex)#Lycos
+#User-Agent: Googlebot #Google
+#User-Agent: FAST-WebCrawler/ #Alltheweb
+#User-agent: msnbot #MSN
+
+#http://www.emezeta.com/articulos/robots-txt-todo-lo-que-deberia-saber
+
+# Establecemos total libertad para webcrawler
+# Ya que dejamos Disallow vacio
+
+#User-agent: webcrawler
+#Disallow:
+
+#En cambio lycra y BadBot
+#tiene prohibido integramente el acceso
+
+#User-agent: lycra
+#User-agent: BadBot
+#Disallow: /
+
+#El resto de bots (señalado mediante *)
+#tiene prohibido el acceso a los directorios
+#/tmp y /log; libertad para el resto.
+
+#User-agent: *
+#Disallow: /tmp
+#3Disallow: /logs
